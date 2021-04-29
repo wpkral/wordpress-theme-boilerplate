@@ -41,14 +41,14 @@ Dosya yapısı ise şu şekildedir:
 
 ```
 -classes
--inc
+-includes
 -theme-parts
 ```
 
 `classes` dizininde; temaya eklenecek olan .php uzantılı class yani sınıf yapıları bulundurulmalıdır. Örneğin; kullanılan CSS framework'une göre tasarlanmış, Navbar Walker
 sınıfı bu dizinde bulunabilir.
 
-`inc` dosyasında; tema için gerekli olan .php uzantılı dosyalar bulunmalıdır. Örneğin; css veya js'lerin eklenmesini gerçekleştiren fonksiyonları barındıran dosyalar
+`includes` dosyasında; tema için gerekli olan .php uzantılı dosyalar bulunmalıdır. Örneğin; css veya js'lerin eklenmesini gerçekleştiren fonksiyonları barındıran dosyalar
 bu dizinde saklanabilir.
 
 `theme-parts` dizininde; temanın bazı yerlerinde kullanılmak üzere oluşturulmuş .php uzantılı dosyalar bulundurulmalıdır. Örneğin; sayfalara göre değişen içerik
